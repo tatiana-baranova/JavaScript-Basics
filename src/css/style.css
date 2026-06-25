@@ -34,3 +34,7 @@ img {
 button {
     cursor: pointer;
 }
+
+body{
+    background-color: rgba(228, 158, 72, 0.316);
+}
