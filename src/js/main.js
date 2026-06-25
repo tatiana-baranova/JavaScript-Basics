@@ -39,3 +39,32 @@ else if(x >= 15){
 else
     console.log("Not equal");
     
+
+let username = "Denia";
+switch(username){
+    case "Bob":
+        console.log("User name is Bob");
+    break;
+    case "Alex":
+        console.log("User name is Alex");
+    break;
+    case "Den":
+        console.log("User name is Den");
+    break;
+    default:
+        console.log("User name undefined");
+}
+
+//Турнарний оператор
+
+// let res;
+// let number = 25;
+// if(number >= 25){
+//     res = "Huge"
+// } else{
+//     res = "Small";
+// }
+
+let number = 25;
+let res = number >= 25 ? "Huge": "Small";
+console.log("Result: "+ res);
