@@ -26,18 +26,18 @@
 // let w2 = "World";
 // console.log(w1 + w2);
 
-let x = 16;
-let hasCar = false;
-let y = 16;
-if (y == x || hasCar == true )
-console.log("Рівність");
-else if(x >= 15){
-    console.warn("x >= 15");
-    if(x = 16)
-        console.log("x == 16");
-}
-else
-    console.log("Not equal");
+// let x = 16;
+// let hasCar = false;
+// let y = 16;
+// if (y == x || hasCar == true )
+// console.log("Рівність");
+// else if(x >= 15){
+//     console.warn("x >= 15");
+//     if(x = 16)
+//         console.log("x == 16");
+// }
+// else
+//     console.log("Not equal");
     
 
 let username = "Denia";
