@@ -4,7 +4,7 @@ for(let i = 1; i < 1000; i++){
         sum += i;
     }
 }
-console.log("Result:", sum);
+// console.log("Result:", sum);
 
 
 let x = new Array(
@@ -22,4 +22,4 @@ for (let i = 0; i < x.length; i++){
         }
     }
 }
-console.log("Minimum element:", min);
+// console.log("Minimum element:", min);

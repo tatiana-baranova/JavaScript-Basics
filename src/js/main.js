@@ -43,16 +43,16 @@
 let username = "Denia";
 switch(username){
     case "Bob":
-        console.log("User name is Bob");
+        // console.log("User name is Bob");
     break;
     case "Alex":
-        console.log("User name is Alex");
+        // console.log("User name is Alex");
     break;
     case "Den":
-        console.log("User name is Den");
+        // console.log("User name is Den");
     break;
     default:
-        console.log("User name undefined");
+        // console.log("User name undefined");
 }
 
 //Турнарний оператор
@@ -67,4 +67,4 @@ switch(username){
 
 let number = 25;
 let res = number >= 25 ? "Huge": "Small";
-console.log("Result: "+ res);
+// console.log("Result: "+ res);

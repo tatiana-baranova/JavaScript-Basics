@@ -36,5 +36,14 @@ button {
 }
 
 body{
-    background-color: rgba(228, 158, 72, 0.316);
+    background-color: rgb(72 187 228 / 15%);
+}
+.wrapper{
+    width: 900px;
+    margin: 10px 20px;
+    height: 500px;
+    background-image: url(../css/img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
