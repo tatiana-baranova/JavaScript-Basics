@@ -40,20 +40,20 @@
 //     console.log("Not equal");
     
 
-let username = "Denia";
-switch(username){
-    case "Bob":
-        // console.log("User name is Bob");
-    break;
-    case "Alex":
-        // console.log("User name is Alex");
-    break;
-    case "Den":
-        // console.log("User name is Den");
-    break;
-    default:
-        // console.log("User name undefined");
-}
+// let username = "Denia";
+// switch(username){
+//     case "Bob":
+//         // console.log("User name is Bob");
+//     break;
+//     case "Alex":
+//         // console.log("User name is Alex");
+//     break;
+//     case "Den":
+//         // console.log("User name is Den");
+//     break;
+//     default:
+//         // console.log("User name undefined");
+// }
 
 //Турнарний оператор
 
@@ -65,6 +65,6 @@ switch(username){
 //     res = "Small";
 // }
 
-let number = 25;
-let res = number >= 25 ? "Huge": "Small";
+// let number = 25;
+// let res = number >= 25 ? "Huge": "Small";
 // console.log("Result: "+ res);

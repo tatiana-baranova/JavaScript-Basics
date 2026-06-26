@@ -37,31 +37,31 @@
 
 
 
-let arr = [5, 3, 6, 9, 2, 8];
-for(let x = 0; x < arr.length; x++){
-    arr[x] *= 2;
-    console.log(`Element ${arr[x]}`);
-}
-console.log(" ");
+// let arr = [5, 3, 6, 9, 2, 8];
+// for(let x = 0; x < arr.length; x++){
+//     arr[x] *= 2;
+//     console.log(`Element ${arr[x]}`);
+// }
+// console.log(" ");
 
 
-let y = 0;
-while(y < arr.length){
-    console.log(`Element ${arr[y]}`);
-    y++;
-}
-console.log(" ");
+// let y = 0;
+// while(y < arr.length){
+//     console.log(`Element ${arr[y]}`);
+//     y++;
+// }
+// console.log(" ");
 
-arr.forEach((item) => {
-    console.log(`Element with value: ${item}`);
-})
+// arr.forEach((item) => {
+//     console.log(`Element with value: ${item}`);
+// })
 
-for(let key in arr){
-    console.log(`Елемент з індексом ${key} має значення: ${arr[key]}`);
+// for(let key in arr){
+//     console.log(`Елемент з індексом ${key} має значення: ${arr[key]}`);
     
-}
+// }
 
-for(let el of  arr){
-    console.log(`Елемент має значення: ${el}`);
+// for(let el of  arr){
+//     console.log(`Елемент має значення: ${el}`);
     
-}
+// }
