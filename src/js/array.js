@@ -20,7 +20,7 @@ array.unshift("Hello") // додання елемента
 delete array[2]
 // console.log(array);
 
-let arr = new Array(5, "r",'hi', true, 4);
+// let arr = new Array(5, "r",'hi', true, 4);
 // console.log(arr);
 
 let matrix = [
@@ -34,12 +34,12 @@ let matrix = [
 
 let str = "hello, some, foot, ball, world";
 let arr_split = str.split(",");
-console.log(arr_split);
+// console.log(arr_split);
 
 arr_split.splice(2, 2);
 
 let info = arr_split.join("||");
-console.log(info);
+// console.log(info);
 
 
 
