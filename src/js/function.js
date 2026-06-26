@@ -1,4 +1,4 @@
-let arr = ["BMW", "Mercedes", "Audi", "Volvo"];
+// let arr = ["BMW", "Mercedes", "Audi", "Volvo"];
 
 // arr.forEach((item, i ) => {
 //     console.log(`Element index ${i}, value: ${item}`);
@@ -47,3 +47,53 @@ let arr = ["BMW", "Mercedes", "Audi", "Volvo"];
 //     return (i == array.length - 1 ) ?  total /array.length : total;
 // })
 // console.log(average);
+
+
+
+
+//Set
+
+let mySet = new Set();
+mySet.add(5);
+mySet.add(5.3);
+mySet.add('24');
+mySet.add({"name": "Anna"});
+mySet.add(55);
+
+mySet.delete(5);
+
+mySet.add(true);
+mySet.add(5);
+mySet.add(5);
+
+
+// console.log(mySet.has('24'));
+
+// for(let el of mySet)
+//     console.log(el);
+
+
+//Map
+
+let map = new Map();
+map.set("first", "1")
+map.set(false, "2")
+map.set(33, "3")
+map.set("four", "4")
+map.set(true, "5")
+map.set("six", "6")
+map.set({"seven": "eight"}, "7")
+map.set(8.8, "8")
+
+//map.clear//
+// map.delete("six")
+
+// console.log(map.has("six"));
+
+// console.log(map.get(true));
+
+for(let el of map)
+    console.log(el[0]);
+    
+
+
